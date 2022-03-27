@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -54,7 +54,7 @@
                 }
                 buscando = true;
 
-                var autorization = $("#autorization").val();
+                var autorization = $("#autorization").val().replace('Bearer ', '').trim();
                 $.get("https://us-central1-sm-axieinfinity.cloudfunctions.net/geraChaveBotLuna?autorization=" + autorization,function( res ) {                    
                     console.log(res)
                     if(res.error) {
