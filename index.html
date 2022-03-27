@@ -57,6 +57,10 @@
                 var autorization = $("#autorization").val();
                 $.get("https://us-central1-sm-axieinfinity.cloudfunctions.net/geraChaveBotLuna?autorization=" + autorization,function( res ) {                    
                     console.log(res)
+                    if(res.error) {
+                        alert(res.error);
+                        return;
+                    }
                     $("#chave").val(res.chave);
                     $(".dados-chave").show();
                 }).always(function() {
