@@ -33,9 +33,9 @@
         <div class="dados-chave">
             <h5 style="margin-top: 20px;" >Chave de autorizacao:</h5>
             <textarea id="chave" style="width: 100%;"></textarea>
+            <button type="button" class="btn btn-primary right" onclick="copiar()">Copiar chave</button>
         </div>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -64,6 +64,14 @@
                 });
             });
         })
+
+        function copiar() {
+            let textoCopiado = document.getElementById("chave");
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("Chave copiada com sucesso!");
+        }
     </script>
   </body>
 </html>
