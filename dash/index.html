@@ -354,22 +354,22 @@
                         var percent6 = (LADO_2 / total * 100).toFixed(2);
 
                         $("#MAIOR_QTD_APOSTADORES_VITORIAS").text(MAIOR_QTD_APOSTADORES + " (" + (percent1) + "%) ");
-                        $("#MAIOR_QTD_APOSTADORES_DERROTAS").text((totalPartidasFinalizadas - MAIOR_QTD_APOSTADORES) + " (" + (100 - percent1) + "%) ");
+                        $("#MAIOR_QTD_APOSTADORES_DERROTAS").text((totalPartidasFinalizadas - MAIOR_QTD_APOSTADORES) + " (" + (100 - percent1).toFixed(2) + "%) ");
 
                         $("#MENOR_QTD_APOSTADORES_VITORIAS").text(MENOR_QTD_APOSTADORES + " (" + (percent2) + "%) ");
-                        $("#MENOR_QTD_APOSTADORES_DERROTAS").text((totalPartidasFinalizadas - MENOR_QTD_APOSTADORES) + " (" + (100 - percent2) + "%) ");
+                        $("#MENOR_QTD_APOSTADORES_DERROTAS").text((totalPartidasFinalizadas - MENOR_QTD_APOSTADORES) + " (" + (100 - percent2).toFixed(2) + "%) ");
 
                         $("#MAIOR_QTD_SOMA_APOSTAS_VITORIAS").text(MAIOR_QTD_SOMA_APOSTAS + " (" + (percent3) + "%) ");
-                        $("#MAIOR_QTD_SOMA_APOSTAS_DERROTAS").text((totalPartidasFinalizadas - MAIOR_QTD_SOMA_APOSTAS) + " (" + (100 - percent3) + "%) ");
+                        $("#MAIOR_QTD_SOMA_APOSTAS_DERROTAS").text((totalPartidasFinalizadas - MAIOR_QTD_SOMA_APOSTAS) + " (" + (100 - percent3).toFixed(2) + "%) ");
                         
                         $("#MENOR_QTD_SOMA_APOSTAS_VITORIAS").text(MENOR_QTD_SOMA_APOSTAS + " (" + (percent4) + "%) ");
-                        $("#MENOR_QTD_SOMA_APOSTAS_DERROTAS").text((totalPartidasFinalizadas - MENOR_QTD_SOMA_APOSTAS) + " (" + (100 - percent4) + "%) ");
+                        $("#MENOR_QTD_SOMA_APOSTAS_DERROTAS").text((totalPartidasFinalizadas - MENOR_QTD_SOMA_APOSTAS) + " (" + (100 - percent4).toFixed(2) + "%) ");
                         
                         $("#LADO_1_VITORIAS").text(LADO_1 + " (" + (percent5) + "%) ");
-                        $("#LADO_1_DERROTAS").text((totalPartidasFinalizadas - LADO_1) + " (" + (100 - percent5) + "%) ");
+                        $("#LADO_1_DERROTAS").text((totalPartidasFinalizadas - LADO_1) + " (" + (100 - percent5).toFixed(2) + "%) ");
 
                         $("#LADO_2_VITORIAS").text(LADO_2 + " (" + (percent6) + "%) ");
-                        $("#LADO_2_DERROTAS").text((totalPartidasFinalizadas - LADO_2) + " (" + (100 - percent6) + "%) ");
+                        $("#LADO_2_DERROTAS").text((totalPartidasFinalizadas - LADO_2) + " (" + (100 - percent6).toFixed(2) + "%) ");
                         
                     })();
                 </script>
