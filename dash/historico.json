@@ -1690,7 +1690,8 @@
 			"_id": "6247f8251e2e916eafca1f1c",
 			"active": 1,
 			"battle_session": "#291",
-			"battle_status": 2,
+			"battle_simulate_id": "622a0d950a5f4272d74b9e3d",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 10
@@ -1781,7 +1782,7 @@
 			},
 			"time_start": 1648883749,
 			"time_stop": 1648889149,
-			"winner": ""
+			"winner": "side_2"
 		}
 	}
 }
