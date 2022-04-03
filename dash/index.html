@@ -149,7 +149,7 @@
                     })();
                 </script>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <canvas id="lado1_x_lado2_total" style="max-height: 340px;"></canvas>
                 <script>
                     (function(){
@@ -216,7 +216,7 @@
                     })();
                 </script>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <table class="table">
                     <thead>
                       <tr>
@@ -260,7 +260,7 @@
                       </tr> 
                       <tr>
                         <th >
-                            <div style="height: 20px;width: 20px;background-color: #4DB6AC;float: left;margin-right: 5px;position: relative;top:2px"></div>
+                            <div style="height: 20px;width: 20px;background-color: #1a237e;float: left;margin-right: 5px;position: relative;top:2px"></div>
                             LADO_OPOSTO_ULTIMO_GANHADOR
                         </th>
                         <td id="LADO_OPOSTO_ULTIMO_GANHADOR_VITORIAS">0</td>
@@ -313,7 +313,7 @@
                         var totalPartidasFinalizadas = 0;
         
                         historico.sort.forEach(id => {
-                            debugger
+                            
                             var data = historico.data[id];
                             var index = historico.sort.indexOf(id);
                             var indexAnterior = (index == 0) ? 0 : index - 1;
@@ -380,6 +380,7 @@
                         var percent4 = (MENOR_QTD_SOMA_APOSTAS / total * 100).toFixed(2);
                         var percent5 = (LADO_1 / total * 100).toFixed(2);
                         var percent6 = (LADO_2 / total * 100).toFixed(2);
+                        var percent7 = (LADO_OPOSTO_ULTIMO_GANHADOR / total * 100).toFixed(2);
 
                         $("#MAIOR_QTD_APOSTADORES_VITORIAS").text(MAIOR_QTD_APOSTADORES + " (" + (percent1) + "%) ");
                         $("#MAIOR_QTD_APOSTADORES_DERROTAS").text((totalPartidasFinalizadas - MAIOR_QTD_APOSTADORES) + " (" + (100 - percent1).toFixed(2) + "%) ");
@@ -398,6 +399,9 @@
 
                         $("#LADO_2_VITORIAS").text(LADO_2 + " (" + (percent6) + "%) ");
                         $("#LADO_2_DERROTAS").text((totalPartidasFinalizadas - LADO_2) + " (" + (100 - percent6).toFixed(2) + "%) ");
+
+                        $("#LADO_OPOSTO_ULTIMO_GANHADOR_VITORIAS").text(LADO_OPOSTO_ULTIMO_GANHADOR + " (" + (percent7) + "%) ");
+                        $("#LADO_OPOSTO_ULTIMO_GANHADOR_DERROTAS").text((totalPartidasFinalizadas - LADO_OPOSTO_ULTIMO_GANHADOR) + " (" + (100 - percent7).toFixed(2) + "%) ");
                         
                     })();
                 </script>
@@ -427,11 +431,18 @@
                             borderColor: '#004D40',                            
                             data: [],
                         };
-
+                        
                         var MENOR_QTD_SOMA_APOSTAS_DataSetEstrategias = {
                             label: 'MENOR_QTD_SOMA_APOSTAS',
                             backgroundColor: '#4DB6AC',
                             borderColor: '#4DB6AC',                            
+                            data: [],
+                        };
+
+                        var LADO_OPOSTO_ULTIMO_GANHADOR_DataSetEstrategias = {
+                            label: 'LADO_OPOSTO_ULTIMO_GANHADOR',
+                            backgroundColor: '#1a237e',
+                            borderColor: '#1a237e',                            
                             data: [],
                         };
                          
@@ -453,6 +464,9 @@
                         historico.sort.forEach(id => {
                             var data = historico.data[id];
                             var date = data.battle_session + " " + moment.unix(data.time_stop).format("HH:mm DD/MM/YY");
+                            var index = historico.sort.indexOf(id);
+                            var indexAnterior = (index == 0) ? 0 : index - 1;
+                            var dataBefore = historico.data[historico.sort[indexAnterior]];
 
                             var MAIOR_QTD_APOSTADORES_LADO = defineLadoAposta(data, {logica_bet: "MAIOR_QTD_APOSTADORES"});
                             var MAIOR_QTD_APOSTADORES = (data.winner == "side_" + MAIOR_QTD_APOSTADORES_LADO)? 1 : 0;
@@ -464,7 +478,10 @@
                             var MAIOR_QTD_SOMA_APOSTAS = (data.winner == "side_" + MAIOR_QTD_SOMA_APOSTAS_LADO)? 1 : 0;
 
                             var MENOR_QTD_SOMA_APOSTAS_LADO = defineLadoAposta(data, {logica_bet: "MENOR_QTD_SOMA_APOSTAS"});
-                            var MENOR_QTD_SOMA_APOSTAS = (data.winner == "side_" + MENOR_QTD_SOMA_APOSTAS_LADO)? 1 : 0;        
+                            var MENOR_QTD_SOMA_APOSTAS = (data.winner == "side_" + MENOR_QTD_SOMA_APOSTAS_LADO)? 1 : 0;     
+                            
+                            var LADO_OPOSTO_ULTIMO_GANHADOR_LADO = defineLadoAposta(data, {logica_bet: "LADO_OPOSTO_ULTIMO_GANHADOR"}, dataBefore);
+                            var LADO_OPOSTO_ULTIMO_GANHADOR = (data.winner == "side_" + LADO_OPOSTO_ULTIMO_GANHADOR_LADO)? 1 : 0;    
                             
                             var LADO_1_LADO = defineLadoAposta(data, {logica_bet: "LADO_1"});
                             var LADO_1 = (data.winner == "side_" + LADO_1_LADO)? 1 : 0;
@@ -479,6 +496,7 @@
                             MENOR_QTD_SOMA_APOSTAS_DataSetEstrategias.data.push(MENOR_QTD_SOMA_APOSTAS);
                             LADO_1_DataSetEstrategias.data.push(LADO_1);
                             LADO_2_DataSetEstrategias.data.push(LADO_2);
+                            LADO_OPOSTO_ULTIMO_GANHADOR_DataSetEstrategias.data.push(LADO_OPOSTO_ULTIMO_GANHADOR);
                         
                             console.log(data);
                             
@@ -494,6 +512,7 @@
                                 MENOR_QTD_SOMA_APOSTAS_DataSetEstrategias,
                                 LADO_1_DataSetEstrategias,
                                 LADO_2_DataSetEstrategias,
+                                LADO_OPOSTO_ULTIMO_GANHADOR_DataSetEstrategias,
                             ]
                         };
                     
