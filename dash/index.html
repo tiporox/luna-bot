@@ -28,7 +28,8 @@
             console.log(res)
             historico = res;
         });
-        function defineLadoAposta(detalhesBatalhaAtual, config) {
+        function defineLadoAposta(detalhesBatalhaAtual, config, detalhesBatalhaAnterior) {
+            console.log(config.logica_bet);
 
             if (config.logica_bet == "MAIOR_QTD_APOSTADORES") {
                 console.log("MAIOR_QTD_APOSTADORES - LADO_1: " + detalhesBatalhaAtual.side_1.total_bet, " LADO_2: " + detalhesBatalhaAtual.side_2.total_bet);
@@ -307,6 +308,9 @@
         
                         historico.sort.forEach(id => {
                             var data = historico.data[id];
+                            var index = historico.sort.indexOf(data);
+                            var indexAnterior = (historico.sort.indexOf(data) == 0) ? 0 : index - 1;
+                            var dataBefore = historico.data[historico.sort[indexAnterior]];
                             var MAIOR_QTD_APOSTADORES_LADO = defineLadoAposta(data, {logica_bet: "MAIOR_QTD_APOSTADORES"});
                             console.log("MAIOR_QTD_APOSTADORES_LADO: " + MAIOR_QTD_APOSTADORES_LADO, "winner", data.winner)
 
@@ -339,7 +343,7 @@
                                 MENOR_QTD_SOMA_APOSTAS++;
                             } 
 
-                            var LADO_OPOSTO_ULTIMO_GANHADOR_LADO = defineLadoAposta(data, {logica_bet: "LADO_OPOSTO_ULTIMO_GANHADOR"});
+                            var LADO_OPOSTO_ULTIMO_GANHADOR_LADO = defineLadoAposta(data, {logica_bet: "LADO_OPOSTO_ULTIMO_GANHADOR"}, dataBefore);
                             console.log("LADO_OPOSTO_ULTIMO_GANHADOR_LADO: " + LADO_OPOSTO_ULTIMO_GANHADOR_LADO, "winner", data.winner)
 
                             if(data.winner == "side_" + LADO_OPOSTO_ULTIMO_GANHADOR_LADO) {
