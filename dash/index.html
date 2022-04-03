@@ -29,7 +29,6 @@
             historico = res;
         });
         function defineLadoAposta(detalhesBatalhaAtual, config, detalhesBatalhaAnterior) {
-            console.log(config.logica_bet);
 
             if (config.logica_bet == "MAIOR_QTD_APOSTADORES") {
                 console.log("MAIOR_QTD_APOSTADORES - LADO_1: " + detalhesBatalhaAtual.side_1.total_bet, " LADO_2: " + detalhesBatalhaAtual.side_2.total_bet);
@@ -65,6 +64,13 @@
             } else if (config.logica_bet == "LADO_2") {
                 console.log("APOSTAR LADO_2");
                 return 2;
+            } else if (config.logica_bet == "LADO_OPOSTO_ULTIMO_GANHADOR") {
+                console.log("LADO_OPOSTO_ULTIMO_GANHADOR - ULTIMO GANHADOR:", detalhesBatalhaAnterior.battle_session, detalhesBatalhaAnterior.winner);
+                if (detalhesBatalhaAnterior.winner == "side_1") {            
+                    return 2;
+                } else {
+                    return 1;
+                }
             }
 
         }
@@ -307,9 +313,10 @@
                         var totalPartidasFinalizadas = 0;
         
                         historico.sort.forEach(id => {
+                            debugger
                             var data = historico.data[id];
-                            var index = historico.sort.indexOf(data);
-                            var indexAnterior = (historico.sort.indexOf(data) == 0) ? 0 : index - 1;
+                            var index = historico.sort.indexOf(id);
+                            var indexAnterior = (index == 0) ? 0 : index - 1;
                             var dataBefore = historico.data[historico.sort[indexAnterior]];
                             var MAIOR_QTD_APOSTADORES_LADO = defineLadoAposta(data, {logica_bet: "MAIOR_QTD_APOSTADORES"});
                             console.log("MAIOR_QTD_APOSTADORES_LADO: " + MAIOR_QTD_APOSTADORES_LADO, "winner", data.winner)
