@@ -298,6 +298,8 @@
                         var MAIOR_QTD_SOMA_APOSTAS = 0;
                         var MENOR_QTD_SOMA_APOSTAS = 0;
 
+                        var LADO_OPOSTO_ULTIMO_GANHADOR = 0;
+
                         var LADO_1 = 0;
                         var LADO_2 = 0;
 
@@ -335,6 +337,13 @@
 
                             if(data.winner == "side_" + MENOR_QTD_SOMA_APOSTAS_LADO) {
                                 MENOR_QTD_SOMA_APOSTAS++;
+                            } 
+
+                            var LADO_OPOSTO_ULTIMO_GANHADOR_LADO = defineLadoAposta(data, {logica_bet: "LADO_OPOSTO_ULTIMO_GANHADOR"});
+                            console.log("LADO_OPOSTO_ULTIMO_GANHADOR_LADO: " + LADO_OPOSTO_ULTIMO_GANHADOR_LADO, "winner", data.winner)
+
+                            if(data.winner == "side_" + LADO_OPOSTO_ULTIMO_GANHADOR_LADO) {
+                                LADO_OPOSTO_ULTIMO_GANHADOR++;
                             } 
 
                             var LADO_1_LADO = defineLadoAposta(data, {logica_bet: "LADO_1"});
