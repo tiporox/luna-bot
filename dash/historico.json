@@ -5399,8 +5399,8 @@
 					]
 				},
 				"hero_id": "624befc02d16483cbb138f4a",
-				"total_bet": 287,
-				"total_mlus": 4381
+				"total_bet": 386,
+				"total_mlus": 5064
 			},
 			"side_2": {
 				"base_hero_id": "hitomi",
@@ -5439,11 +5439,11 @@
 					]
 				},
 				"hero_id": "624befc02d16483cbb138f4b",
-				"total_bet": 303,
-				"total_mlus": 5836
+				"total_bet": 357,
+				"total_mlus": 6365
 			},
 			"time_start": 1649143744,
-			"time_stop": 1649149144,
+			"time_stop": 1649145900,
 			"winner": ""
 		}
 	}
