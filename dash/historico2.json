@@ -872,7 +872,7 @@
 			"battle_status": 1,
 			"bet_value": {
 				"side_1": 0,
-				"side_2": 3
+				"side_2": 30
 			},
 			"date_created": "Tue, 05 Apr 2022 18:45:41 GMT",
 			"fee": 0.09,
@@ -913,8 +913,8 @@
 					]
 				},
 				"hero_id": "624cf0c57ed2edca816816e5",
-				"total_bet": 171,
-				"total_mlus": 2840
+				"total_bet": 217,
+				"total_mlus": 3323
 			},
 			"side_2": {
 				"base_hero_id": "youta",
@@ -951,8 +951,8 @@
 					]
 				},
 				"hero_id": "624cf0c57ed2edca816816e6",
-				"total_bet": 153,
-				"total_mlus": 3631
+				"total_bet": 194,
+				"total_mlus": 4067
 			},
 			"slot": 2,
 			"time_start": 1649209541,
