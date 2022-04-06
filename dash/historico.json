@@ -6355,7 +6355,7 @@
 			"battle_session": "#338",
 			"battle_status": 1,
 			"bet_value": {
-				"side_1": 4,
+				"side_1": 30,
 				"side_2": 0
 			},
 			"date_created": "Tue, 05 Apr 2022 19:24:45 GMT",
@@ -6399,8 +6399,8 @@
 					]
 				},
 				"hero_id": "624cf9edc6b36f2b999bffcc",
-				"total_bet": 721,
-				"total_mlus": 13256
+				"total_bet": 807,
+				"total_mlus": 14540
 			},
 			"side_2": {
 				"base_hero_id": "hitomi",
@@ -6439,8 +6439,8 @@
 					]
 				},
 				"hero_id": "624cf9edc6b36f2b999bffcd",
-				"total_bet": 826,
-				"total_mlus": 12008
+				"total_bet": 897,
+				"total_mlus": 13254
 			},
 			"slot": 1,
 			"time_start": 1649211885,
