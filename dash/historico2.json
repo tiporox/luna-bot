@@ -3749,7 +3749,8 @@
 			"_id": "625027e54177e8bae69bfa84",
 			"active": 1,
 			"battle_session": "#40",
-			"battle_status": 1,
+			"battle_simulate_id": "624c040dba8c3801041517ad",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
@@ -3793,8 +3794,8 @@
 					]
 				},
 				"hero_id": "625027e54177e8bae69bfa82",
-				"total_bet": 504,
-				"total_mlus": 9444
+				"total_bet": 518,
+				"total_mlus": 9549
 			},
 			"side_2": {
 				"base_hero_id": "youta",
@@ -3831,13 +3832,13 @@
 					]
 				},
 				"hero_id": "625027e54177e8bae69bfa83",
-				"total_bet": 824,
-				"total_mlus": 11252
+				"total_bet": 845,
+				"total_mlus": 11497
 			},
 			"slot": 2,
 			"time_start": 1649420261,
 			"time_stop": 1649425661,
-			"winner": ""
+			"winner": "side_1"
 		}
 	}
 }
