@@ -11951,7 +11951,8 @@
 			"_id": "62544542237157c9ebb76e6c",
 			"active": 1,
 			"battle_session": "#406",
-			"battle_status": 2,
+			"battle_simulate_id": "622a0dac508963048bdc6536",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
