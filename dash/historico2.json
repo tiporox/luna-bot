@@ -6820,7 +6820,8 @@
 			"_id": "6254c4af72d8809d40748ca9",
 			"active": 1,
 			"battle_session": "#83",
-			"battle_status": 2,
+			"battle_simulate_id": "624c040e7668eb6565be3c4c",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
