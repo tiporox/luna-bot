@@ -14451,7 +14451,8 @@
 			"_id": "6256f3b53df630dbbbbe909b",
 			"active": 1,
 			"battle_session": "#431",
-			"battle_status": 1,
+			"battle_simulate_id": "622a0db4804c20ce3820c9ee",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 15
@@ -14497,8 +14498,8 @@
 					]
 				},
 				"hero_id": "6256f3b53df630dbbbbe9099",
-				"total_bet": 605,
-				"total_mlus": 7840
+				"total_bet": 644,
+				"total_mlus": 8118
 			},
 			"side_2": {
 				"base_hero_id": "hitomi",
@@ -14537,13 +14538,13 @@
 					]
 				},
 				"hero_id": "6256f3b53df630dbbbbe909a",
-				"total_bet": 642,
-				"total_mlus": 7977
+				"total_bet": 675,
+				"total_mlus": 8277
 			},
 			"slot": 1,
 			"time_start": 1649865653,
 			"time_stop": 1649871053,
-			"winner": ""
+			"winner": "side_1"
 		}
 	}
 }
