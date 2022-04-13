@@ -14151,7 +14151,8 @@
 			"_id": "6256a156a69b9da69f9c09f6",
 			"active": 1,
 			"battle_session": "#428",
-			"battle_status": 2,
+			"battle_simulate_id": "622a0db2122ba3882fc94c48",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 15,
 				"side_2": 0
