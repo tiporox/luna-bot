@@ -108,7 +108,8 @@
 		"6258bca3dd188c1676be88d8",
 		"6258d818a7863059f09bfb0d",
 		"6258f38f0b330826f5749185",
-		"62590f06a252f35169680e57"
+		"62590f06a252f35169680e57",
+		"62592a7ba7863059f09c018e"
 	],
 	"data": {
 		"624c0866dcd4ff3f39c257c7": {
@@ -10461,6 +10462,100 @@
 			"time_start": 1650003718,
 			"time_stop": 1650009118,
 			"winner": "side_1"
+		},
+		"62592a7ba7863059f09c018e": {
+			"_id": "62592a7ba7863059f09c018e",
+			"active": 1,
+			"battle_session": "#124",
+			"battle_status": 1,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Fri, 15 Apr 2022 01:19:07 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "62590f06a252f35169680e57",
+			"side_1": {
+				"base_hero_id": "reiko",
+				"hero": {
+					"_id": "62592a7ba7863059f09c018c",
+					"base_hero_id": "reiko",
+					"basic_stats": {
+						"accuracy": 144,
+						"armor": 12,
+						"attack_speed": 27,
+						"block": 16,
+						"combo": 65,
+						"counter": 15,
+						"damage": 43,
+						"disarm": 22,
+						"evasion": 56,
+						"hp": 310,
+						"precision": 144,
+						"reversal": 14
+					},
+					"current_rarity": "elite",
+					"name": "reiko",
+					"pets": [],
+					"power": 1006,
+					"skills": [
+						"feline_agility_1",
+						"berserk_1"
+					],
+					"tx_hr": "4936495747124363268637123211713599818485964210177",
+					"unique_skill": "berserk_1",
+					"weapons": [
+						"bumps_1",
+						"dagger_1"
+					]
+				},
+				"hero_id": "62592a7ba7863059f09c018c",
+				"total_bet": 18,
+				"total_mlus": 659
+			},
+			"side_2": {
+				"base_hero_id": "youta",
+				"hero": {
+					"_id": "62592a7ba7863059f09c018d",
+					"base_hero_id": "youta",
+					"basic_stats": {
+						"accuracy": 184,
+						"armor": 10,
+						"attack_speed": 37,
+						"block": 17,
+						"combo": 52,
+						"counter": 19,
+						"damage": 40,
+						"disarm": 22,
+						"evasion": 101,
+						"hp": 344,
+						"precision": 184,
+						"reversal": 20
+					},
+					"current_rarity": "elite",
+					"name": "youta",
+					"pets": [],
+					"power": 1007,
+					"skills": [
+						"dancing_queen_1"
+					],
+					"tx_hr": "6763372969034076306167452627503786967202260844545",
+					"unique_skill": "dancing_queen_1",
+					"weapons": [
+						"mace_1",
+						"dagger_1",
+						"guitar_1"
+					]
+				},
+				"hero_id": "62592a7ba7863059f09c018d",
+				"total_bet": 21,
+				"total_mlus": 753
+			},
+			"slot": 2,
+			"time_start": 1650010747,
+			"time_stop": 1650016147,
+			"winner": ""
 		}
 	}
 }
