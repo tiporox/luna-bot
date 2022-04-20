@@ -21550,7 +21550,8 @@
 			"_id": "625f5d975b5d73ebf341c941",
 			"active": 1,
 			"battle_session": "#505",
-			"battle_status": 2,
+			"battle_simulate_id": "622a0dc7ecd03aa84bc4e999",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
