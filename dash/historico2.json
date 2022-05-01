@@ -28461,8 +28461,8 @@
 					]
 				},
 				"hero_id": "626e2653ec3755fa5ab0a72b",
-				"total_bet": 6,
-				"total_mlus": 639
+				"total_bet": 40,
+				"total_mlus": 873
 			},
 			"side_2": {
 				"base_hero_id": "youta",
@@ -28499,12 +28499,12 @@
 					]
 				},
 				"hero_id": "626e2653ec3755fa5ab0a72c",
-				"total_bet": 5,
-				"total_mlus": 531
+				"total_bet": 14,
+				"total_mlus": 653
 			},
 			"slot": 2,
 			"time_start": 1651385939,
-			"time_stop": 1651391339,
+			"time_stop": 1651393091,
 			"winner": ""
 		}
 	}
