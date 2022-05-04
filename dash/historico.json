@@ -386,7 +386,8 @@
 		"6271b09aa08e9e16f4617e2b",
 		"6271cc0f844712bccec660fd",
 		"6271e784b0b82d139cb0a97e",
-		"627202f9fe8e8250a6c65edf"
+		"627202f9fe8e8250a6c65edf",
+		"62721e6e844712bccec66274"
 	],
 	"data": {
 		"624625887320e486a4f1bd83": {
@@ -38643,6 +38644,104 @@
 			"time_start": 1651639033,
 			"time_stop": 1651644433,
 			"winner": "side_2"
+		},
+		"62721e6e844712bccec66274": {
+			"_id": "62721e6e844712bccec66274",
+			"active": 1,
+			"battle_session": "#676",
+			"battle_status": 1,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Tue, 03 May 2022 23:34:22 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "627202f9fe8e8250a6c65edf",
+			"side_1": {
+				"base_hero_id": "nishi",
+				"hero": {
+					"_id": "62721e6e844712bccec66272",
+					"base_hero_id": "nishi",
+					"basic_stats": {
+						"accuracy": 172,
+						"armor": 12,
+						"attack_speed": 40,
+						"block": 95,
+						"combo": 20,
+						"counter": 20,
+						"damage": 58,
+						"disarm": 25,
+						"evasion": 20,
+						"hp": 354,
+						"precision": 172,
+						"reversal": 20
+					},
+					"current_rarity": "epic",
+					"name": "nishi",
+					"pets": [
+						"boar_1"
+					],
+					"power": 732,
+					"skills": [
+						"shield_1",
+						"beast_master_1"
+					],
+					"tx_hr": "7311971823591811704107946788253489665910595649537",
+					"unique_skill": "beast_master_1",
+					"weapons": [
+						"katana_1",
+						"lance_1"
+					]
+				},
+				"hero_id": "62721e6e844712bccec66272",
+				"total_bet": 24,
+				"total_mlus": 672
+			},
+			"side_2": {
+				"base_hero_id": "hitomi",
+				"hero": {
+					"_id": "62721e6e844712bccec66273",
+					"base_hero_id": "hitomi",
+					"basic_stats": {
+						"accuracy": 172,
+						"armor": 12,
+						"attack_speed": 32,
+						"block": 20,
+						"combo": 70,
+						"counter": 20,
+						"damage": 64,
+						"disarm": 25,
+						"evasion": 60,
+						"hp": 290,
+						"precision": 172,
+						"reversal": 20
+					},
+					"current_rarity": "epic",
+					"name": "hitomi",
+					"pets": [
+						"golem_1"
+					],
+					"power": 731,
+					"skills": [
+						"feline_agility_1",
+						"weapon_master_1"
+					],
+					"tx_hr": "5850470186260908785904261955537198768245260156929",
+					"unique_skill": "weapon_master_1",
+					"weapons": [
+						"broadsword_1",
+						"fan_1"
+					]
+				},
+				"hero_id": "62721e6e844712bccec66273",
+				"total_bet": 15,
+				"total_mlus": 663
+			},
+			"slot": 1,
+			"time_start": 1651646062,
+			"time_stop": 1651651462,
+			"winner": ""
 		}
 	}
 }
