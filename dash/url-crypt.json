@@ -1,3 +1,4 @@
 {
-	"a": 1
+	"https://api.lunarush.io/v1/core-api/api/user/me": "st=BvPdntqCO-gJBW3P4-pHIQ&e=1652627589&va=1.12.0",
+	"https://api.lunarush.io/v1/game-api/api/battle/boss/user": "st=AQhrJIHiYH643Vt8RQ17Uw&e=1652627596&va=1.12.0"
 }
