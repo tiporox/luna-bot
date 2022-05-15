@@ -9,7 +9,6 @@ IF IMAGE : Qk1aOQAAAAAAADYAAAAoAAAANQAAAEUAAAABACAAAAAAAAAAAAB0EgAAdBIAAAAAAAAAA
 ENDIF
 DELAY : 1000
 IF IMAGE : Qk3SAwAAAAAAADYAAAAoAAAACwAAABUAAAABACAAAAAAAAAAAAB0EgAAdBIAAAAAAAAAAAAAFRIR/ywnJf84MC//OTIu/zozL/86MzD/OzQw/zs0MP88NTH/PTYx/z03M/+OkI7/AgIC/zoyL/85Mi7/OTIu/zoyL/87NDD/OzQx/zw2Mf89NjH/PTYy//v7+/9JSEn/MSon/zgwLP85MS3/OjIv/zs0Mf87NjL/PDYy/z02Mf89NjH/2dPM/4+Nj/8iHhz/ODAv/zkzMP86NDH/OzYy/zs2Mv87NjP/OzYz/zs1Mf++uq//wL3A/xAPDf8xKyn/Mi0q/zMtKv80Lyv/NC8s/zQvLP80Lyz/NC4q/7aypv//+///AAEA/y4oJv8uKSf/Lyon/y8qJ/8vKij/MCso/zArKf8wKyj/uLOp//77/v8AAAD/LCYl/y0nJf8tJyX/LSgm/y4pJv8uKSb/Lyom/y8qJ/+4s63/9/f3/woKCv8ICAj/CQkJ/wkICf8JCAn/CQgJ/wkJCf8JCAn/CQgJ/722rf/Qzcj/1dPP/+Df3f/l4uP/5uXj/9TNyP/W0cr/1dHK/9XRyv/V0cr/vbat/7m0rf+9uK//u7eu/9bRzv/V0s7/zMjE/7u2q/+5tKn/v7iv/7+4r/+9tq3/vbat/722rf+8taz/2dbR/9bTzv/V1tT/u7Ws/763rv+9tq3/vbat/722rf+9tq3/vbat/722rf+5s6r/19PP/9PTy//V0sz/vrix/722rf+9tq3/vbat/722rf+9tq3/vbat/722rf/RzMn/09LO/9HNyP+8t6z/vbat/722rf+9tq3/vbat/722rf+9tq3/vbat/7mzqv/Y0dD/1tLO/9nV0f+9t7D/vbat/722rf+9tq3/vbet/723rv+9t67/vbmw/87Iwv/X08//19PP/8TBuv+9t67/vbat/722rf/Lx8D/trOt/62qpP+tqaT/qqaf/8K/vf/Bvbr/vsG9/62spP+9tq3/vbat/9/h2v9aW1r/BQQE/wgHBv8IBwb/CAcG/wgHBv8JBwb/CAcG/722rf+9tq3/trGo/8TCu/8RDgz/Nism/zYrJv82Kyb/OCsn/zgrKP84Kyj/vbat/7u1rf+3raH//////wUEA/82KiX/Niol/zYqJf83Kyb/Nysn/zcrJ/+9tq3/vLWt/7eupP///f//AgMC/zYpJP82KST/Nikk/zYqJf82Kib/Niom/6ahmf++t67/ubKp//35/f8AAwD/Nikk/zYpJP82KST/NSkk/zQqJP81KiX/ : 1 : 50 : 0 : 661;244;71;32
-Mouse : 802 : 62 : Click : 0 : 1 : 0
 DELAY : 1000
 Mouse : 802 : 62 : Click : 0 : 1 : 0
 ENDIF
