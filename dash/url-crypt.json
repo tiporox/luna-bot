@@ -1,8 +1,8 @@
 {
-	"https://api.lunarush.io/v1/core-api/api/user/me": "st=h9XF6XHqcRkPtd8tRUlpcQ&e=1652988311&va=1.12.0",
-	"https://api.lunarush.io/v1/core-api/api/user/roi": "st=0v2DRSyeCyI6kncEP9cYyA&e=1652988307&va=1.12.0",
-	"https://api.lunarush.io/v1/game-api/api/battle/boss/user": "st=KMSj2DZMlkFHPQ_-WkwcMA&e=1652988354&va=1.12.0",
-	"https://api.lunarush.io/v1/game-api/api/hero/boss": "st=hM157h00CreYie1vkUE6CA&e=1652988318&va=1.12.0",
-	"https://api.lunarush.io/v1/game-api/api/hero/active": "st=cBOspHBzt2CepHwz2nfFEg&e=1652988318&va=1.12.0",
+	"https://api.lunarush.io/v1/core-api/api/user/me": "st=DJiH4m2PbrlyPjrBGIGFlw&e=1652988368&va=1.12.0",
+	"https://api.lunarush.io/v1/core-api/api/user/roi": "st=6ZrEKAhLId7rPVZK2ERw7g&e=1652988364&va=1.12.0",
+	"https://api.lunarush.io/v1/game-api/api/battle/boss/user": "st=P9BNPSwVgVUgeKpGtX4hWw&e=1652988371&va=1.12.0",
+	"https://api.lunarush.io/v1/game-api/api/hero/boss": "st=BjSAijfp6ZBANzGF2Prl7w&e=1652988375&va=1.12.0",
+	"https://api.lunarush.io/v1/game-api/api/hero/active": "st=IPRspfQ4aR-sZBbN5HqTZg&e=1652988375&va=1.12.0",
 	"https://api.lunarush.io/v1/game-api/api/battle/boss": "st=jtsnPmF1rRPcewzJ8sIw5A&e=1652988335&va=1.12.0"
 }
