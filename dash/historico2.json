@@ -57696,7 +57696,7 @@
 			"_id": "62901825d8915b76995585a2",
 			"active": 1,
 			"battle_session": "#625",
-			"battle_status": 1,
+			"battle_status": 2,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
@@ -57778,8 +57778,8 @@
 					]
 				},
 				"hero_id": "62901825d8915b76995585a1",
-				"total_bet": 86,
-				"total_mlus": 1215
+				"total_bet": 89,
+				"total_mlus": 1234
 			},
 			"slot": 2,
 			"time_start": 1653610533,
