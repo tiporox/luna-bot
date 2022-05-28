@@ -1,3 +1,5 @@
 {
-	"https://api.lunarush.io/v1/core-api/api/user/me": "st=sjVCGdjVWMWOhwgVZE02-Q&e=1653747716&va=1.12.0"
+	"https://api.lunarush.io/v1/core-api/api/user/me": "st=MU-JwMtfCA_hRIym5RVMKg&e=1653747733&va=1.12.0",
+	"https://api.lunarush.io/v1/game-api/api/battle/boss/user": "st=u6WkLTiGZUTFzWWe4Y3vPw&e=1653747723&va=1.12.0",
+	"https://api.lunarush.io/v1/core-api/api/user/roi": "st=mfI39WJjm-UAhhGHDLVaNw&e=1653747738&va=1.12.0"
 }
