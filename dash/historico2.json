@@ -60574,7 +60574,8 @@
 			"_id": "6295598e68d518cfcce6cfe3",
 			"active": 1,
 			"battle_session": "#655",
-			"battle_status": 1,
+			"battle_simulate_id": "624c048aca59f2a4176d8983",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
@@ -60662,7 +60663,7 @@
 			"slot": 2,
 			"time_start": 1653954958,
 			"time_stop": 1653960358,
-			"winner": ""
+			"winner": "side_2"
 		}
 	}
 }
