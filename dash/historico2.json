@@ -638,7 +638,11 @@
 		"6295c762d9c27eabe3557e70",
 		"6295e2d7a2039040ec23a3c9",
 		"6295fe4ca2039040ec23a418",
-		"629619c19a8e8874ede6c121"
+		"629619c19a8e8874ede6c121",
+		"62963559a2039040ec23a486",
+		"629650ce9a8e8874ede6c158",
+		"62966c4367ef4e995df6fd1c",
+		"6296873cd700f4d80e77e398"
 	],
 	"data": {
 		"624c0866dcd4ff3f39c257c7": {
@@ -61246,7 +61250,8 @@
 			"_id": "629619c19a8e8874ede6c121",
 			"active": 1,
 			"battle_session": "#662",
-			"battle_status": 1,
+			"battle_simulate_id": "624c048bca59f2a4176d8985",
+			"battle_status": 3,
 			"bet_value": {
 				"side_1": 0,
 				"side_2": 0
@@ -61334,6 +61339,385 @@
 			"slot": 2,
 			"time_start": 1654004161,
 			"time_stop": 1654009561,
+			"winner": "side_2"
+		},
+		"62963559a2039040ec23a486": {
+			"_id": "62963559a2039040ec23a486",
+			"active": 1,
+			"battle_session": "#663",
+			"battle_simulate_id": "624c040339342988011517ac",
+			"battle_status": 3,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Tue, 31 May 2022 08:33:45 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "629619c19a8e8874ede6c121",
+			"side_1": {
+				"base_hero_id": "reiko",
+				"hero": {
+					"_id": "62963559a2039040ec23a484",
+					"base_hero_id": "reiko",
+					"basic_stats": {
+						"accuracy": 144,
+						"armor": 12,
+						"attack_speed": 27,
+						"block": 16,
+						"combo": 65,
+						"counter": 15,
+						"damage": 43,
+						"disarm": 22,
+						"evasion": 56,
+						"hp": 310,
+						"precision": 144,
+						"reversal": 14
+					},
+					"current_rarity": "elite",
+					"name": "reiko",
+					"pets": [],
+					"power": 1006,
+					"skills": [
+						"feline_agility_1",
+						"berserk_1"
+					],
+					"tx_hr": "4936495747124363268637123211713599818485964210177",
+					"unique_skill": "berserk_1",
+					"weapons": [
+						"bumps_1",
+						"dagger_1"
+					]
+				},
+				"hero_id": "62963559a2039040ec23a484",
+				"total_bet": 38,
+				"total_mlus": 822
+			},
+			"side_2": {
+				"base_hero_id": "youta",
+				"hero": {
+					"_id": "62963559a2039040ec23a485",
+					"base_hero_id": "youta",
+					"basic_stats": {
+						"accuracy": 184,
+						"armor": 10,
+						"attack_speed": 37,
+						"block": 17,
+						"combo": 52,
+						"counter": 19,
+						"damage": 40,
+						"disarm": 22,
+						"evasion": 101,
+						"hp": 344,
+						"precision": 184,
+						"reversal": 20
+					},
+					"current_rarity": "elite",
+					"name": "youta",
+					"pets": [],
+					"power": 1007,
+					"skills": [
+						"dancing_queen_1"
+					],
+					"tx_hr": "6763372969034076306167452627503786967202260844545",
+					"unique_skill": "dancing_queen_1",
+					"weapons": [
+						"mace_1",
+						"dagger_1",
+						"guitar_1"
+					]
+				},
+				"hero_id": "62963559a2039040ec23a485",
+				"total_bet": 40,
+				"total_mlus": 927
+			},
+			"slot": 2,
+			"time_start": 1654011225,
+			"time_stop": 1654016625,
+			"winner": "side_1"
+		},
+		"629650ce9a8e8874ede6c158": {
+			"_id": "629650ce9a8e8874ede6c158",
+			"active": 1,
+			"battle_session": "#664",
+			"battle_simulate_id": "624c0404697c080e2e6ef7b6",
+			"battle_status": 3,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Tue, 31 May 2022 10:30:54 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "62963559a2039040ec23a486",
+			"side_1": {
+				"base_hero_id": "reiko",
+				"hero": {
+					"_id": "629650ce9a8e8874ede6c156",
+					"base_hero_id": "reiko",
+					"basic_stats": {
+						"accuracy": 144,
+						"armor": 12,
+						"attack_speed": 27,
+						"block": 16,
+						"combo": 65,
+						"counter": 15,
+						"damage": 43,
+						"disarm": 22,
+						"evasion": 56,
+						"hp": 310,
+						"precision": 144,
+						"reversal": 14
+					},
+					"current_rarity": "elite",
+					"name": "reiko",
+					"pets": [],
+					"power": 1006,
+					"skills": [
+						"feline_agility_1",
+						"berserk_1"
+					],
+					"tx_hr": "4936495747124363268637123211713599818485964210177",
+					"unique_skill": "berserk_1",
+					"weapons": [
+						"bumps_1",
+						"dagger_1"
+					]
+				},
+				"hero_id": "629650ce9a8e8874ede6c156",
+				"total_bet": 54,
+				"total_mlus": 833
+			},
+			"side_2": {
+				"base_hero_id": "youta",
+				"hero": {
+					"_id": "629650ce9a8e8874ede6c157",
+					"base_hero_id": "youta",
+					"basic_stats": {
+						"accuracy": 184,
+						"armor": 10,
+						"attack_speed": 37,
+						"block": 17,
+						"combo": 52,
+						"counter": 19,
+						"damage": 40,
+						"disarm": 22,
+						"evasion": 101,
+						"hp": 344,
+						"precision": 184,
+						"reversal": 20
+					},
+					"current_rarity": "elite",
+					"name": "youta",
+					"pets": [],
+					"power": 1007,
+					"skills": [
+						"dancing_queen_1"
+					],
+					"tx_hr": "6763372969034076306167452627503786967202260844545",
+					"unique_skill": "dancing_queen_1",
+					"weapons": [
+						"mace_1",
+						"dagger_1",
+						"guitar_1"
+					]
+				},
+				"hero_id": "629650ce9a8e8874ede6c157",
+				"total_bet": 57,
+				"total_mlus": 884
+			},
+			"slot": 2,
+			"time_start": 1654018254,
+			"time_stop": 1654023654,
+			"winner": "side_1"
+		},
+		"62966c4367ef4e995df6fd1c": {
+			"_id": "62966c4367ef4e995df6fd1c",
+			"active": 1,
+			"battle_session": "#665",
+			"battle_simulate_id": "624c048b7668eb6565be3c6f",
+			"battle_status": 3,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Tue, 31 May 2022 12:28:03 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "629650ce9a8e8874ede6c158",
+			"side_1": {
+				"base_hero_id": "reiko",
+				"hero": {
+					"_id": "62966c4367ef4e995df6fd1a",
+					"base_hero_id": "reiko",
+					"basic_stats": {
+						"accuracy": 144,
+						"armor": 12,
+						"attack_speed": 27,
+						"block": 16,
+						"combo": 65,
+						"counter": 15,
+						"damage": 43,
+						"disarm": 22,
+						"evasion": 56,
+						"hp": 310,
+						"precision": 144,
+						"reversal": 14
+					},
+					"current_rarity": "elite",
+					"name": "reiko",
+					"pets": [],
+					"power": 1006,
+					"skills": [
+						"feline_agility_1",
+						"berserk_1"
+					],
+					"tx_hr": "4936495747124363268637123211713599818485964210177",
+					"unique_skill": "berserk_1",
+					"weapons": [
+						"bumps_1",
+						"dagger_1"
+					]
+				},
+				"hero_id": "62966c4367ef4e995df6fd1a",
+				"total_bet": 6,
+				"total_mlus": 535
+			},
+			"side_2": {
+				"base_hero_id": "youta",
+				"hero": {
+					"_id": "62966c4367ef4e995df6fd1b",
+					"base_hero_id": "youta",
+					"basic_stats": {
+						"accuracy": 184,
+						"armor": 10,
+						"attack_speed": 37,
+						"block": 17,
+						"combo": 52,
+						"counter": 19,
+						"damage": 40,
+						"disarm": 22,
+						"evasion": 101,
+						"hp": 344,
+						"precision": 184,
+						"reversal": 20
+					},
+					"current_rarity": "elite",
+					"name": "youta",
+					"pets": [],
+					"power": 1007,
+					"skills": [
+						"dancing_queen_1"
+					],
+					"tx_hr": "6763372969034076306167452627503786967202260844545",
+					"unique_skill": "dancing_queen_1",
+					"weapons": [
+						"mace_1",
+						"dagger_1",
+						"guitar_1"
+					]
+				},
+				"hero_id": "62966c4367ef4e995df6fd1b",
+				"total_bet": 7,
+				"total_mlus": 521
+			},
+			"slot": 2,
+			"time_start": 1654025283,
+			"time_stop": 1654030683,
+			"winner": "side_2"
+		},
+		"6296873cd700f4d80e77e398": {
+			"_id": "6296873cd700f4d80e77e398",
+			"active": 1,
+			"battle_session": "#666",
+			"battle_status": 1,
+			"bet_value": {
+				"side_1": 0,
+				"side_2": 0
+			},
+			"date_created": "Tue, 31 May 2022 14:23:08 GMT",
+			"fee": 0.09,
+			"max_bet_value": 100,
+			"previous_battle": "62966c4367ef4e995df6fd1c",
+			"side_1": {
+				"base_hero_id": "reiko",
+				"hero": {
+					"_id": "6296873cd700f4d80e77e396",
+					"base_hero_id": "reiko",
+					"basic_stats": {
+						"accuracy": 144,
+						"armor": 12,
+						"attack_speed": 27,
+						"block": 16,
+						"combo": 65,
+						"counter": 15,
+						"damage": 43,
+						"disarm": 22,
+						"evasion": 56,
+						"hp": 310,
+						"precision": 144,
+						"reversal": 14
+					},
+					"current_rarity": "elite",
+					"name": "reiko",
+					"pets": [],
+					"power": 1006,
+					"skills": [
+						"feline_agility_1",
+						"berserk_1"
+					],
+					"tx_hr": "4936495747124363268637123211713599818485964210177",
+					"unique_skill": "berserk_1",
+					"weapons": [
+						"bumps_1",
+						"dagger_1"
+					]
+				},
+				"hero_id": "6296873cd700f4d80e77e396",
+				"total_bet": 1,
+				"total_mlus": 505
+			},
+			"side_2": {
+				"base_hero_id": "youta",
+				"hero": {
+					"_id": "6296873cd700f4d80e77e397",
+					"base_hero_id": "youta",
+					"basic_stats": {
+						"accuracy": 184,
+						"armor": 10,
+						"attack_speed": 37,
+						"block": 17,
+						"combo": 52,
+						"counter": 19,
+						"damage": 40,
+						"disarm": 22,
+						"evasion": 101,
+						"hp": 344,
+						"precision": 184,
+						"reversal": 20
+					},
+					"current_rarity": "elite",
+					"name": "youta",
+					"pets": [],
+					"power": 1007,
+					"skills": [
+						"dancing_queen_1"
+					],
+					"tx_hr": "6763372969034076306167452627503786967202260844545",
+					"unique_skill": "dancing_queen_1",
+					"weapons": [
+						"mace_1",
+						"dagger_1",
+						"guitar_1"
+					]
+				},
+				"hero_id": "6296873cd700f4d80e77e397",
+				"total_bet": 2,
+				"total_mlus": 613
+			},
+			"slot": 2,
+			"time_start": 1654032187,
+			"time_stop": 1654037587,
 			"winner": ""
 		}
 	}
